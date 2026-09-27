@@ -1,0 +1,8 @@
+# app-ads.txt — authorises who may sell ad inventory for ChargeProof.
+#
+# Must be reachable at the ROOT of the domain you put in the Play listing's
+# "Website" field:  https://<your-domain>/app-ads.txt
+#
+# Publisher id 4843335846537346 is the part before "~" in the AdMob app id
+# ca-app-pub-4843335846537346~9695342363.
+google.com, pub-4843335846537346, DIRECT, f08c47fec0942fa0
