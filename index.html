@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChargeProof – Charger Tester</title>
+  <meta name="description" content="Plug in a charger, enter the wattage printed on it, and ChargeProof tells you in 30 seconds whether it really delivers that power.">
+  <style>
+    :root { color-scheme: dark; }
+    body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 0 auto;
+           padding: 32px 24px 64px; background: #0b1222; color: #e3e9f5; line-height: 1.65; }
+    .bar { width: 4px; height: 22px; background: #2fffa0; border-radius: 2px; display: inline-block;
+           vertical-align: middle; margin-right: 10px; }
+    h1 { font-size: 1.6em; display: flex; align-items: center; }
+    h2 { font-size: 1.1em; margin-top: 2em; color: #e3e9f5; }
+    p, li { color: #a9b6ce; }
+    strong { color: #e3e9f5; }
+    code { background: #182338; padding: 2px 6px; border-radius: 6px; font-size: 0.9em; color: #e3e9f5; }
+    a { color: #2fffa0; }
+    .card { background: #182338; border: 1px solid #2b3b5a; border-radius: 16px; padding: 20px 22px; margin-top: 20px; }
+    footer { margin-top: 48px; color: #6b778f; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+  <h1><span class="bar"></span>ChargeProof</h1>
+  <p><strong>Is your charger lying to you?</strong> Plug in a charger, enter the wattage printed on it, and
+  ChargeProof tells you in 30 seconds whether it really delivers that power &mdash; in plain words, not just a
+  wall of numbers.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">What it does</h2>
+    <ul>
+      <li><strong>Charger and cable test:</strong> measures the power actually delivered and compares it with the
+      wattage on the label. Tells you if it matches, runs below spec, or is probably not what it claims.</li>
+      <li><strong>Saved tests, ranked:</strong> keep your results and see which combination is fastest, so you can
+      find the weak cable instead of guessing.</li>
+      <li><strong>Battery care:</strong> honest capacity estimates, clearly labelled as estimates, plus a
+      charge-limit alert.</li>
+      <li><strong>No account, everything on your phone.</strong> Measurements never leave the device.</li>
+    </ul>
+  </div>
+
+  <h2>Honest by design</h2>
+  <p>Some phones do not expose charging current, and phones deliberately slow down near full charge. When the app
+  cannot judge something, it says so instead of inventing a number.</p>
+
+  <h2>Legal &amp; contact</h2>
+  <ul>
+    <li><a href="privacy.html">Privacy policy</a></li>
+    <li>Support: <a href="mailto:jettfox.designed@gmail.com">jettfox.designed@gmail.com</a></li>
+    <li>Package: <code>com.jettfox.chargeproof</code></li>
+  </ul>
+
+  <footer>ChargeProof is developed by JettFox. Google Play and the Google Play logo are trademarks of Google LLC.</footer>
+</body>
+</html>
