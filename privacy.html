@@ -35,20 +35,26 @@
     or store them.</li>
     <li><b>Anonymous identifier:</b> RevenueCat generates a locally stored anonymous ID that links your purchases to
     your entitlements. It contains no name, email, or other personal information.</li>
-    <li><b>Advertising identifier:</b> the free version is supported by ads served through Google AdMob. The AdMob
-    SDK processes your device's advertising ID to serve and measure ads. Before an ad is requested in the EEA, the
-    UK, or Switzerland, the app shows a consent prompt and ads are served only according to your choice. PRO removes
-    ads entirely, and the app makes no ad requests while PRO is active.</li>
+    <li><b>Advertising (Google AdMob):</b> the free version is supported by ads. When an ad is requested, the Google
+    Mobile Ads SDK automatically collects and shares the following with Google, for advertising, analytics and
+    fraud prevention: your device's <b>advertising ID</b>; your <b>IP address</b>, from which an approximate
+    location can be inferred; <b>app interaction</b> data such as app launches, taps and video views; and
+    <b>diagnostic</b> data such as app start-up time, hang rate and power usage. This data is transmitted over an
+    encrypted (TLS) connection. Before an ad is requested in the EEA, the UK, or Switzerland, the app shows a
+    consent prompt and ads are served only according to your choice. <b>PRO removes ads entirely, and the app makes
+    no ad requests while PRO is active</b>, so none of the above is collected in that state.</li>
   </ul>
 
-  <p>We do <b>not</b> collect location, contacts, photos, messages, call logs, or your name. There is no account and
-  no login. We never upload your battery or charging measurements.</p>
+  <p>We ourselves do <b>not</b> collect your contacts, photos, messages, call logs, or your name, and we do not ask
+  for precise location. There is no account and no login. We never upload your battery or charging measurements.
+  The advertising data listed above is handled by Google's ad SDK, not by us, and only in the free version.</p>
 
   <h2>2. How data is used</h2>
   <ul>
     <li><b>On your device:</b> charger and cable tests, battery health estimates, statistics and history, charge-limit alerts.</li>
     <li><b>Subscriptions:</b> unlocking PRO features and restoring purchases.</li>
-    <li><b>Advertising:</b> showing the ads that support the free version (never while PRO is active).</li>
+    <li><b>Advertising:</b> showing and measuring the ads that support the free version, and detecting invalid
+    traffic (never while PRO is active).</li>
   </ul>
 
   <h2>3. Third-party services</h2>
@@ -56,7 +62,8 @@
     <tr><th>Service</th><th>Purpose</th><th>Data</th></tr>
     <tr><td>Google Play / Play Billing</td><td>Payments and subscriptions</td><td>Purchase records (handled by Google)</td></tr>
     <tr><td>RevenueCat</td><td>Subscription entitlements</td><td>Anonymous ID, purchase / entitlement status</td></tr>
-    <tr><td>Google AdMob</td><td>Advertising in the free version</td><td>Advertising ID, ad interaction data</td></tr>
+    <tr><td>Google AdMob</td><td>Advertising in the free version</td>
+        <td>Advertising ID, IP address (approximate location), app interactions, diagnostics</td></tr>
   </table>
 
   <h2>4. Subscriptions and purchases</h2>
@@ -71,7 +78,8 @@
   <h2>5. Data deletion</h2>
   <p>&ldquo;Clear history&rdquo; in the app deletes your local sessions and saved tests. Uninstalling the app or
   clearing its data removes everything stored on the device. We hold no server-side personal data, because there is
-  no account system.</p>
+  no account system. For the advertising ID, Android gives you direct control: Settings &rarr; Privacy &rarr; Ads
+  lets you delete or reset it at any time.</p>
 
   <h2>6. Children</h2>
   <p>This app is not directed to children and we do not knowingly collect personal information from children.</p>
